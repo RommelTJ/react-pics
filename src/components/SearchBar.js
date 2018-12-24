@@ -11,8 +11,6 @@ class SearchBar extends React.Component {
                     <div className="field">
                         <label>Image Search</label>
                         <input type="text" onChange={(e) => this.setState({ term: e.target.value })} />
-                        {/*Alternate syntax:*/}
-                        {/*<input type="text" onChange={(e) => console.log("Here: " + e.target.value)} />*/}
                     </div>
                 </form>
             </div>
