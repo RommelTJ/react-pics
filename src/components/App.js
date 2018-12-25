@@ -13,7 +13,7 @@ class App extends React.Component {
                 query: searchTerm
             }
         }).then((response) => {
-            console.log(response);
+            console.log(response.data.results);
         });
     }
 
