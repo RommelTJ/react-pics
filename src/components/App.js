@@ -12,6 +12,8 @@ class App extends React.Component {
             params: {
                 query: searchTerm
             }
+        }).then((response) => {
+            console.log(response);
         });
     }
 
